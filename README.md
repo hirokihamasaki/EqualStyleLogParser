@@ -9,7 +9,7 @@ May 31 15:54:39 10.10.10.1 time="May 29 1:52:08 2017"	timezone="GMT"	vendor="Zsc
 you can get columns sample with `-d` switch with position number
 
 ```
-% python convertEqualStyle2ColStyle.py test.log -d              
+% python equalStyleLogParser.py test.log -d              
 1 actual_action
 2 actual_status
 3 appname
