@@ -32,7 +32,7 @@ you can get columns sample with `-d` switch with position number
 you can display columns you want with `-t` switch (commna separated)
 
 ```
-% python convertEqualStyle2ColStyle.py TEMP/temp.log -t time,useragent
+% python equalStyleLogParser.py TEMP/temp.log -t time,useragent
 time	useragent
 May 29 01:52:07 2017	Unknown
 May 29 01:52:08 2017	MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT
