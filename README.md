@@ -6,7 +6,7 @@ May 31 15:54:33 10.10.10.1 time="May 29 1:52:07 2017"	timezone="GMT"	vendor="Zsc
 May 31 15:54:39 10.10.10.1 time="May 29 1:52:08 2017"	timezone="GMT"	vendor="Zscaler"	product="Zscaler"	hostname="aaa.example.com"	clientip="192.168.1.1"	url="aaa.example.com/test333"	actual_action="Allowed"	actual_status="200"	useragent="MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT"	requestmethod="POST"	urlcategory="Professional Services"	requestsize="222"	responsesize="1111"	user="test@example.local"	filetype="None"	refererurl="None"	reason="Allowed"	recordid="13111111111"	clienttranstime="52"	riskscore="0"	appname="generalbrowsing"	department="Default"	md5digest="None"	clientpublicip="x.x.x.x"	filename="None"	threatcategory="None"	module="General Browsing"	nsssvcip="10.10.10.100"	protocol="HTTP"	threatname="None"
 ```
 
-you can get columns sample with `-d` switch with position number
+With `-d` switch, you can get attributes to be column names from first line.
 
 ```
 % python equalStyleLogParser.py test.log -d              
